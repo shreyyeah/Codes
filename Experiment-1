@@ -1,0 +1,52 @@
+//Shlok Naik
+//22070123115
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Hello world";
+    return 0;
+}
+
+OUTPUT
+-------
+Hello world
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float a, b;
+float sum;
+float sub;
+float mul;
+float div;
+    
+    cout<<"Enter 1st number: \n";
+    cin>>a;
+    cout<<"Enter 2nd number: \n";
+    cin>>b;
+    sum = a+b;
+    sub = a-b;
+    mul  = a*b;
+    div = a/b;
+
+    cout<<"The sum of two numbers is = \n"<<sum;
+    cout<<"\nThe difference of two numbers is = \n"<<sub;
+    cout<<"\nThe multiple of two numbers is = \n"<<mul;
+    cout<<"\nThe division of two numbers is = \n"<<div;
+    return 0;
+}
+OUTPUT
+------------
+Enter 1st number: 
+1
+Enter 2nd number: 
+5
+The sum of two numbers is = 
+6
+The difference of two numbers is =
+-4
+The multiple of two numbers is =
+5
+The division of two numbers is = 
+0.2
