@@ -1,0 +1,39 @@
+\\22070123114
+#include<iostream>
+using namespace std;
+int main(){
+    bool imagecolor=true;
+    if(imagecolor=true){
+        cout<<"Image is colourful";
+    }
+    else{
+        cout<<"Image is black and white";
+    }
+}
+OUTPUT
+---------
+Image is colourful
+
+CODE-
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cout<<"Enter 1st number: ";
+    cin>>a;
+    cout<<"Enter 2nd number: ";
+    cin>>b;
+    if(a>b){
+        cout<<"1st number is greater";
+    }
+    else{
+        cout<<"2nd number is greater";
+    }
+
+}
+
+OUTPUT
+----------
+Enter 1st number: 15
+Enter 2nd number: 25
+2nd number is greater
